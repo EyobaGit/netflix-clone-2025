@@ -28,10 +28,13 @@
     flex-direction: column;
     justify-content: space-around;
     height: 12vh;
+
 }
 
 .footer_data ul li{
 cursor: pointer;
+margin: 3% 0px;
+font-size: 15px;
 }
 
 .service_code{
@@ -39,16 +42,17 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
     border: #fff 1px solid;
-    width: 10%;
+    width: 8%;
     margin: 10px 0;
     cursor: pointer;
-    color: #fff;
-    margin-left: 19%;
+    color: grey;
+    margin-left: 20%;
+    font-size: 15px;
 }
 
 .copy_writer{
     font-size: 12px;
     margin-bottom: 10px;
-    color: #fff;
-    margin-left: 19%;
+    color: grey;
+    margin-left: 20%;
 }

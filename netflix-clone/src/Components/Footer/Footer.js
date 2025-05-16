@@ -2,8 +2,8 @@ import React from "react";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import CopyrightIcon from '@mui/icons-material/Copyright';
-import './Footer.css'
+import CopyrightIcon from "@mui/icons-material/Copyright";
+import "./Footer.css";
 const Footer = () => {
   return (
     <div>
@@ -43,17 +43,11 @@ const Footer = () => {
                 <li>Contact Us</li>
               </ul>
             </div>
-          
           </div>
         </div>
       </div>
-        <div className="service_code">
-              Service Code
-            </div>
-               <div className="copy_writer">
-                
-              &copy; 1997-2024 Netflix, Inc.
-            </div>
+      <div className="service_code">Service Code</div>
+      <div className="copy_writer">&copy; 1997-2024 Netflix, Inc.</div>
     </div>
   );
 };
